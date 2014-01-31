@@ -3,3 +3,7 @@
 *.iml
 *.swp
 tmp/**
+
+# ignore any Karma conf.js files in the test/ directory
+test/*.conf.js
+
