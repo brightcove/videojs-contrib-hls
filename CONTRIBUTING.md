@@ -9,6 +9,12 @@ Regarding code style like indentation and whitespace, **follow the conventions y
 ### PhantomJS
 While Grunt can run the included unit tests via [PhantomJS](http://phantomjs.org/), this shouldn't be considered a substitute for the real thing. Please be sure to test the `test/*.html` unit test file(s) in _actual_ browsers.
 
+You can also run the QUnit tests using [Karma](http://karma-runner.github.io/0.10/index.html). Please see tests/karma.conf.js.example for detailed coniguration instructions.
+Once you've configured Karma to run your tests, you can run them with this command:
+```sh
+grunt karma:dev
+```
+
 ## Modifying the code
 First, ensure that you have the latest [Node.js](http://nodejs.org/) and [npm](http://npmjs.org/) installed.
 
